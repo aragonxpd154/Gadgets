@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<gadget>
+    <name>TV Gazeta G1 Notícias</name>
+    <namespace>Marcos Silva</namespace>
+    <version>1.00</version>
+    <author name="Marcos Silva">
+        <info url="http://aragones.esy.es" />
+    </author>
+    <copyright>2017</copyright>
+    <description>As principais notícias do Espirito Santo via portal G1 TV Gazeta em primeira mão</description>
+	<icons>
+      <icon height="48" width="48" src="bbcnews.png"/>
+    </icons>
+    <hosts>
+        <host name="sidebar">
+            <base type="HTML" apiVersion="2.0.0" src="tvgazeta.htm" />
+            <permissions>full</permissions>
+            <platform minPlatformVersion="0.3" />
+        </host>
+    </hosts>
+</gadget>
