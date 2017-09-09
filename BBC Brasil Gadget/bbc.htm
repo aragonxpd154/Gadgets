@@ -1,0 +1,101 @@
+<HTML>
+ <HEAD>
+
+<script language="JavaScript" src="bbc.js"></script>
+
+<style type="text/css">
+
+<!--
+
+body {
+	font-family: Segoe UI, Tahoma, Sans-Serif;
+        font-size: 10px;
+        color:#ffffff;
+	margin: 0px;
+	padding: 0px;
+	height: 180px;
+	width: 128px;
+}
+
+#container {
+	background-color: #000000;
+	border: 1px solid yellow;
+	margin: 0px;
+	height: 178px;
+	width: 126px;
+	left: 0px
+}
+
+
+
+A:link {text-decoration: none; color: navy;}
+A:hover {text-decoration: none; color: red;}
+A:visited {text-decoration: none; color: black}
+
+#feedwindow {
+
+background-color: #e0e0e0;
+
+overflow: auto; overflow-y: auto; overflow-x: hidden;
+
+height: 138; width: 120px;
+
+border: solid gray 1px;padding:0.2em 0.2em; 
+
+color:navy; 
+font-family: Segoe UI, Tahoma, Sans-Serif;
+font-size: 12px;
+
+
+scrollbar-arrow-color: white;
+scrollbar-face-color: darkred;
+scrollbar-track-color: #0f0f0f;
+
+
+}
+// -->
+</style>
+
+<SCRIPT LANGUAGE="JavaScript">
+<!--
+
+System.Gadget.onSettingsClosed = updatesizes;
+
+function refresh() 
+{ 
+
+refreshData();
+
+window.setInterval(refreshData, 300000); 
+
+} 
+
+// -->
+</SCRIPT>
+
+
+
+ </HEAD>
+ <BODY onload="refresh()">
+  <div id="container">
+   <TABLE WIDTH="116" CELLPADDING="2" CELLSPACING="0" BORDER="0"  align=center>
+    <TR>
+     <TD WIDTH="100%" VALIGN=TOP align=center>
+      <P>
+       <A HREF="http://www.bbc.com/portuguese" target="new"><IMG SRC="bbcnews.png" WIDTH="128" height="128
+	   " VSPACE="0" HSPACE="0" BORDER="0"><A></TD>
+    </TR>
+    <TR>
+     <TD WIDTH="100%" VALIGN=TOP align=center>
+<div id="feedwindow">
+
+</div>
+
+     </TD>
+    </TR>
+   </TABLE>
+   </div>
+
+
+ </BODY>
+</HTML>
